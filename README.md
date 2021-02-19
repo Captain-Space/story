@@ -1,18 +1,18 @@
 # story
 爬取小说站
 
-
+##这个是我代码里用到的正则之一
 ![Image text](https://github.com/Captain-Space/story/blob/main/img/%E6%AD%A3%E5%88%99.png)
-上面这个是我代码里用到的正则之一
-
-  ![Image text](https://github.com/Captain-Space/story/blob/main/img/%E5%87%BD%E6%95%B0.png)
-这个函数
 
 
-就是为了解决：
+##这个函数
+![Image text](https://github.com/Captain-Space/story/blob/main/img/%E5%87%BD%E6%95%B0.png)
+   
+ 
+ 就是为了解决：
 1.每段开头空两格
 2.有些章节会分成若干页，在每页的结尾会这样 
-  ![Image text](https://github.com/Captain-Space/story/blob/main/img/%E7%A4%BA%E4%BE%8B.png)
+ ![Image text](https://github.com/Captain-Space/story/blob/main/img/%E7%A4%BA%E4%BE%8B.png)
 
 换行，插入字符，需要把下一页的第一段与这页的紧连，不能有空格，并去掉“（本章未完，请翻页）”
 3.在需要翻页的章节的最后一页，没有“（本章未完，请翻页）”，需要换行打印下一章
